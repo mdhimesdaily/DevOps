@@ -26,4 +26,13 @@ public class testFactorial {
         assertEquals(result, 1);
 
     }
+
+    @Test
+
+    void testFail() {
+        Factorial factorial = new Factorial();
+        int result = factorial.factorialcalc(0);
+        assertEquals(0, 1);
+
+    }
 }
